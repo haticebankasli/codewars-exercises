@@ -6,7 +6,7 @@ def spin_words(sentence):
             n = n[::-1]
             digits.append(n)
         else:
-            digits.append(n)
+            digits.append(n) 
     
         
     return" ".join(digits)
